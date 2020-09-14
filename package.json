@@ -1,6 +1,6 @@
 {
 	"name": "neutrino-middleware-stylus-loader",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Neutrino Stylus loader middleware",
 	"main": "src/index.js",
 	"author": "Constantine Genchevsky <const.gen@gmail.com>",
