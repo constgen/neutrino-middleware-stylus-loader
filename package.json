@@ -1,0 +1,50 @@
+{
+	"name": "neutrino-middleware-stylus-loader",
+	"version": "0.1.0",
+	"description": "Neutrino Stylus loader middleware",
+	"main": "src/index.js",
+	"author": "Constantine Genchevsky <const.gen@gmail.com>",
+	"license": "GPL-3.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/constgen/neutrino-middleware-stylus-loader.git"
+	},
+	"homepage": "https://github.com/constgen/neutrino-middleware-stylus-loader",
+	"keywords": [
+		"neutrino",
+		"neutrino-middlware",
+		"webpack",
+		"loader",
+		"stylus"
+	],
+	"scripts": {
+		"eslint": "eslint ./",
+		"pretest": "npm run eslint -- --max-warnings 0",
+		"lint": "npm run eslint -- --fix"
+	},
+	"dependencies": {
+		"deepmerge": "4.2.2",
+		"arrify": "2.0.1",
+		"stylus": "0.54.8",
+		"stylus-loader": "3.0.2",
+		"nib": "1.1.2"
+	},
+	"devDependencies": {
+		"neutrino": "9.4.0",
+		"eslint": "7.9.0",
+		"@constgen/eslint": "2.2.0"
+	},
+	"peerDependencies": {
+		"neutrino": "^9.0.0"
+	},
+	"files": [
+		"/src",
+		"README.md",
+		"LICENSE",
+		"package.json"
+	],
+	"engines": {
+		"node": ">=10.13",
+		"npm": ">=5.4.0"
+	}
+}
