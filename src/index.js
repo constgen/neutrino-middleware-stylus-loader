@@ -6,7 +6,7 @@ let deepmerge = require('deepmerge')
 module.exports = function (customSettings = {}) {
 	return function (neutrino) {
 		const STYLUS_EXTENSIONS        = /\.styl(us)?$/
-		const STYLUS_MODULE_EXTENSIONS = /\.module.styl$/
+		const STYLUS_MODULE_EXTENSIONS = /\.module\.styl(us)?$/
 		let projectNodeModules         = path.resolve(process.cwd(), 'node_modules')
 		let { config }                 = neutrino
 		let styleRule                  = config.module.rules.get('style')
